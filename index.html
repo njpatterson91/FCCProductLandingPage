@@ -1,16 +1,42 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
 <main>
+    
 </main>
 
-<header>
+<header id="header">
     <nav id="nav-bar">
-        <a href="">Top of page</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a class="nav-link"href="#companyHeader">Top of page</a>
+        <a class="nav-link"href="#videoDiv">About</a>
+        <a class="nav-link"href="#form">Contact</a>
     </nav>
     <div id="companyHeader">
-    <img src="./companyLogo.png" alt="header-img">
-    <h1>HCPC Computer Repair and Business IT Infrastructure</h1>
+        <img id="header-img"src="./companyLogo.png" alt="header-img">
+        <h1 id="title">HCPC Computer Repair and Business IT Infrastructure</h1>
     </div>
+    
 </header>
+
+<div>
+
+    <div id="videoDiv">
+        <video id="video"width="320" height="240" controls>
+            <source src="dummyLink" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+<div>
+    <form id="form"action="https://www.freecodecamp.com/email-submit">
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        <input id="submit"type="submit" value="Submit">
+        
+    </form>
+
+</div>
+
+</html>
 

@@ -1,5 +1,9 @@
+body {
+    background-color: gray;
+}
+
 #companyHeader {
     display: flex;
     align-items: left;
-    flex-direction: column;
+    flex-direction: row;
 }
