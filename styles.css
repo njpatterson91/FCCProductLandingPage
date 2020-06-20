@@ -4,6 +4,40 @@ body {
 
 #companyHeader {
     display: flex;
+    flex-direction: column;  
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#header-img {
+    display: flex;
+    justify-content: center;
+}
+
+#mainFlexBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#navBarFlex {
+    display: flex;
     align-items: left;
-    flex-direction: row;
+}
+#whatWeDo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+}
+#whatWeDoHeader {
+    display:flex;
+    
+    justify-content: center;
+    
+}
+#videoFlex {
+    display: flex;
+    align-items: center;
 }
