@@ -1,4 +1,5 @@
 #companyHeader {
     display: flex;
-    flex-wrap: wrap;
+    align-items: left;
+    flex-direction: column;
 }
